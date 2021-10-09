@@ -23,4 +23,5 @@ urlpatterns = [
     #path('hello/<nome>/', views.hello),
     path('hello/<nome>/<int:idade>/', views.hello),
     #path('hello/<nome>/<string:idade>/', views.hello),
+    #
 ]
